@@ -1,0 +1,16 @@
+{
+  "name": "XREngine-Starter-Template",
+  "version": "0.0.1",
+  "moduleEntryPoints": ["StarterGameSystem.ts"],
+  "clientReactEntryPoint": ["StarterClientSkin.tsx"],  
+  "files": [
+    "components/CubeComponent.ts",
+    "prefabs/CubePrefab.ts",
+    "prefabs/StarterGamePrefabs.ts",
+    "Starter.module.scss",
+    "StarterClientSkin.tsx",
+    "StarterGameActions.ts",
+    "StarterGameConstants.ts",
+    "StarterGameSystem.ts"
+  ]
+}
