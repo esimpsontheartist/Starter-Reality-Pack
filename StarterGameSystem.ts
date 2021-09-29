@@ -58,7 +58,7 @@ function actionReceptor(action: StarterActionType) {
         }
 
         // Spawn cubes once player is joined
-        if (s.spawnedCubes.value < 1) {
+        if (s.spawnedCubes.value < 100) {
           for (let i = 1; i <= 10; i++) {
             setTimeout(() => {
               spawnCube(new Vector3(Math.random() * 50 - 25, 10, Math.random() * -50 + 25))

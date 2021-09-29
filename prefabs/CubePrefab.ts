@@ -34,7 +34,7 @@ interface CubeGroupType extends Group {
 }
 
 let cubeCounter = 0
-const defaultCubeScale = 1.0
+const defaultCubeScale = 0.5
 
 export const spawnCube = (position: Vector3): void => {
   const networkId = Network.getNetworkId()
