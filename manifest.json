@@ -6,7 +6,6 @@
   "files": [
     "components/CubeComponent.ts",
     "prefabs/CubePrefab.ts",
-    "prefabs/StarterGamePrefabs.ts",
     "Starter.module.scss",
     "StarterClientSkin.tsx",
     "StarterGameActions.ts",
