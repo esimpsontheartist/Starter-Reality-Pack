@@ -2,8 +2,12 @@ import React from 'react'
 import styles from './Starter.module.scss'
 
 const StarterClientSkin = (props) => {
+  console.log('props', props)
   return (
-    <span className={styles.starterSplash}>{"Starter Reality Pack!"}</span>
+    <>
+      {props.canvas}
+      <span className={styles.starterSplash}>{"Starter Reality Pack!"}</span>
+    </>
   )
 }
 
