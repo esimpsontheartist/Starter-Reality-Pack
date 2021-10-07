@@ -1,0 +1,33 @@
+{
+  "name": "XREngine-Starter-Template",
+  "version": "0.0.1",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "update-files": "node update-files.js",
+    "check": "tsc --noEmit",
+    "lint": "prettier --check \"**/*.{ts,tsx}\"",
+    "format": "prettier --write \"**/*.{ts,tsx}\"",
+    "format-staged": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XRFoundation/Starter-Reality-Pack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XRFoundation/Starter-Reality-Pack/issues"
+  },
+  "homepage": "https://github.com/XRFoundation/Starter-Reality-Pack#readme",
+  "pre-commit": [
+    "format-staged"
+  ],
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
