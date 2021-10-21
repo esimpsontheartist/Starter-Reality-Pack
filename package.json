@@ -14,6 +14,14 @@
     "type": "git",
     "url": "git+https://github.com/XRFoundation/Starter-Reality-Pack.git"
   },
+  "xrengine": {
+    "moduleEntryPoints": [
+      "StarterGameSystem.ts"
+    ],
+    "clientReactEntryPoint": [
+      "StarterClientSkin.tsx"
+    ]
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
