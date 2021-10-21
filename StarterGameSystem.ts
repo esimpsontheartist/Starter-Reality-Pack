@@ -73,7 +73,7 @@
  
  export default async function StarterSystem(world: World) {
    // Register the action receptor (this should always be done first)
-   world.receptors.add(actionReceptor)
+   world.receptors.push(actionReceptor)
  
    const cubeQuery = defineQuery([CubeComponent])
  
